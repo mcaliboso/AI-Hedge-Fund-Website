@@ -30,7 +30,11 @@ export default function ResearchPaper() {
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm" asChild>
-                <a href="/ai-hedge-fund-paper.pdf" download>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1K-Cd5FuaRbbeHTWqX4PKf4u82c8udysO"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Download className="w-4 h-4 mr-2" />
                   Download PDF
                 </a>
@@ -115,7 +119,11 @@ export default function ResearchPaper() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8" asChild>
-              <a href="/ai-hedge-fund-paper.pdf" download>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1K-Cd5FuaRbbeHTWqX4PKf4u82c8udysO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Read Full Paper
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
@@ -532,7 +540,11 @@ export default function ResearchPaper() {
           </div>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
             <Button variant="outline" asChild>
-              <a href="/ai-hedge-fund-paper.pdf" download>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1K-Cd5FuaRbbeHTWqX4PKf4u82c8udysO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Download className="w-4 h-4 mr-2" />
                 Download Paper
               </a>
